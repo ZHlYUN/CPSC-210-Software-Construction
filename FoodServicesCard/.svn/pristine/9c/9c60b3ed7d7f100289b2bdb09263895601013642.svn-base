@@ -1,0 +1,23 @@
+package ca.ubc.cs.cpsc210.servicecard.tests;
+
+import ca.ubc.cs.cpsc210.servicecard.model.FoodServicesCard;
+import org.junit.Before;
+import org.junit.Test;
+
+import static org.junit.Assert.*;
+
+// Unit tests for FoodServiceCard class
+public class FoodServicesCardTest {
+    public static final int INITIAL_BALANCE = 10000;
+    private FoodServicesCard testCard;
+
+    @Before
+    public void setUp() throws Exception {
+        testCard = new FoodServicesCard(INITIAL_BALANCE);
+    }
+
+    @Test
+    public void testXXXXXX() {
+        // template for unit tests
+    }
+}

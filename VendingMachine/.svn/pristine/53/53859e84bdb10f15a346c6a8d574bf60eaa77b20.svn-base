@@ -1,0 +1,19 @@
+package ca.ubc.cs.cpsc210.machine.test;
+
+import ca.ubc.cs.cpsc210.machine.model.PaymentUnit;
+import org.junit.Before;
+import org.junit.Test;
+
+public class PaymentUnitTest {
+    private PaymentUnit paymentUnit;
+
+    @Before
+    public void setUp() {
+        paymentUnit = new PaymentUnit();
+    }
+
+    @Test
+    public void testXXXXXX() {
+
+    }
+}
